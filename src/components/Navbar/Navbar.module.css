@@ -2,13 +2,12 @@
   grid-area: n;
   padding: 40px;
   background: linear-gradient(180deg, #54d3c2 0%, #30898a 100%);
-  border-radius: 56px 56px 0px 56px;
+  border-radius: 56px 56px 56px 56px;
 }
 
 .navbar__elements {
   height: 100%;
 }
-
 
 .links {
   display: flex;
@@ -16,9 +15,9 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .links img {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }

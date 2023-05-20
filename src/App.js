@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Basket from "./components/Basket/Basket";
-import Calendar from "./components/Calendar/Calendar";
+import Calendary from "./components/Calendar/Calendary";
 import Daily from "./components/Daily/Daily";
 import Diagrams from "./components/Diagrams/Diagrams";
 import Pastry from "./components/Pastry/Pastry";
@@ -18,7 +18,7 @@ function App() {
       <div className="main__content">
         <Routes>
           <Route path="basket" element={<Basket />} />
-          <Route path="calendar" element={<Calendar />} />
+          <Route path="calendar" element={<Calendary />} />
           <Route path="daily" element={<Daily />} />
           <Route path="diagrams" element={<Diagrams />} />
           <Route path="employee" element={<Employees />} />
