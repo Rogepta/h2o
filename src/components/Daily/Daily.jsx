@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { v1 } from "uuid";
-import "./Daily.module.css";
 import Todolist from "../Daily/TodoList/Todolist";
 
 const Daily = () => {
@@ -48,14 +47,14 @@ const Daily = () => {
   }
 
   return (
-      <Todolist
-        title="Выполнено для тестового!"
-        tasks={tasksForToDoList}
-        removeTask={removeTask}
-        changeFilter={changeFilter}
-        addTask={addTask}
-        toggleTaskStatus={toggleTaskStatus}
-      />
+    <Todolist
+      title="Выполнено для тестового!"
+      tasks={tasksForToDoList}
+      removeTask={removeTask}
+      changeFilter={changeFilter}
+      addTask={addTask}
+      toggleTaskStatus={toggleTaskStatus}
+    />
   );
 };
 
