@@ -7,7 +7,7 @@ const Daily = () => {
     { id: v1(), title: "Calendar", isDone: true },
     { id: v1(), title: "TODO List", isDone: true },
     { id: v1(), title: "Basket", isDone: false },
-    { id: v1(), title: "Employees", isDone: false },
+    { id: v1(), title: "Employees 25%", isDone: false },
     { id: v1(), title: "Pastry", isDone: false },
     { id: v1(), title: "Diagrams", isDone: false },
     { id: v1(), title: "Settings", isDone: false },
@@ -47,14 +47,14 @@ const Daily = () => {
   }
 
   return (
-    <Todolist
-      title="Выполнено для тестового!"
-      tasks={tasksForToDoList}
-      removeTask={removeTask}
-      changeFilter={changeFilter}
-      addTask={addTask}
-      toggleTaskStatus={toggleTaskStatus}
-    />
+      <Todolist
+        title="Выполнено для тестового!"
+        tasks={tasksForToDoList}
+        removeTask={removeTask}
+        changeFilter={changeFilter}
+        addTask={addTask}
+        toggleTaskStatus={toggleTaskStatus}
+      />
   );
 };
 
